@@ -7,5 +7,5 @@ test('Test 1', () => {
         [1, 0, 3],
         [2, 1, 0],
         [2, 1, 1]];
-    expect(dynamicArray(2, queries)).toBe(3);
+    expect(dynamicArray(2, queries)).toStrictEqual([7, 3]);
 });
